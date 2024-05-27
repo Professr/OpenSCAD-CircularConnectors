@@ -72,5 +72,5 @@ pin_connector_bracket(num_pins=19, bracket_offset=10);
 
 ## Currently available pin/socket types
 Round, often seen in common power connectors:
-* `["round", ".062"]` - .062" pin
-* `["round", ".062"]` - .062" socket
+* `["round", ".062", "pin"]` - .062" pin
+* `["round", ".062", "socket"]` - .062" socket
