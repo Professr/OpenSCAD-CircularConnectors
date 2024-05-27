@@ -74,3 +74,12 @@ pin_connector_bracket(num_pins=19, bracket_offset=10);
 Round, often seen in common power connectors:
 * `["round", ".062", "pin"]` - .062" pin
 * `["round", ".062", "socket"]` - .062" socket
+
+
+---
+<p align="center">
+  <img width="268" alt="EidoliaInsignia" src="https://github.com/Professr/OpenSCAD-CircularConnectors/assets/769049/dbed99fb-57c5-4cd6-b0ca-55e5dadf2404">
+</p>
+<p align="center">
+  Released open source under the aegis of the Commonwealth of Eidolia, because planting the seeds for a post-scarcity tomorrow is something we can do today.
+</p>
