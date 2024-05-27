@@ -26,6 +26,7 @@ circular_connectors_captive_offset = 0.2;
  * Configurable defaults *
  *************************/
 
+// Space between pin footprints
 circular_connectors_default_pin_spacing = 1.0;
 // Maximum pin/socket footprint, used to determine spacing
 circular_connectors_default_pin_footprint_diameter = 4.0;
@@ -99,8 +100,8 @@ module round_socket(options) {
  *
  *  Valid options:
  *    round:
- *      ["round", "pin", ".062"]    - .062" pin
- *      ["round", "socket", ".062"] - .062" socket
+ *      ["round", ".062", "pin"]    - .062" pin
+ *      ["round", ".062", "socket"] - .062" socket
  */
 module pin_generator(options=["jst","pin"]) {
   type = options[len(options)-1];
